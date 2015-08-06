@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kartina.tv"
+       name="Kartina.TV"
+       version="0.0.1"
+       provider-name="Studio-Evolution">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.requests" version="0.13.2"/>
+    </requires>
+    <extension point="xbmc.python.script" library="start.py">
+        <provides>video executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Plugin to watch IPTV from KARTINA.TV</summary>
+        <summary lang="ru">Дополнение для просмотра IPTV с KARTINA.TV</summary>
+        <summary lang="ua">Додаток для перегляду IPTV із KARTINA.TV</summary>
+        <description lang="en"></description>
+        <description lang="ru">KARTINA.TV - это:
+            - Более 140 каналов прежде всего из России а также из Украины и других стран.
+            - 14 дневный архив большинства каналов. Благодаря ему вы можете посмотреть любую передачу в удобное для вас
+            время.
+            - Видеотека. Более 1000 фильмов доступны к просмотру в любой момент.
+            - Имеются каналы в качестве HD и FullHD и 3D.
+            - Просмотр возможен на компьютере.
+            - Просмотр возможеен на Ipad, Iphone, Android.
+            - Просмотр возможен в любой точке планеты где сть подключение с достаточной скоростью.
+            - Просмотр возможен и на мобильном интернете.
+            - Просмотр возможен на скорости от 0,3 Mb. (300 kb)
+        </description>
+        <description lang="ua"></description>
+        <platform>all</platform>
+    </extension>
+</addon>
